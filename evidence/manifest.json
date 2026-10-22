@@ -1,0 +1,161 @@
+{
+  "batch_id": "20261021T141250867855Z",
+  "start_inclusive": "2026-09-01",
+  "end_exclusive": "2026-09-08",
+  "started_at_utc": "2026-10-21T14:12:50.867855+00:00",
+  "finished_at_utc": "2026-10-21T14:14:38.100518+00:00",
+  "row_count": 71830,
+  "api_count_before": 71830,
+  "api_count_after": 71830,
+  "page_size": 3000,
+  "pages": [
+    {
+      "file": "pages/page-0001.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "dbbfbd99590455d3a1f43198eb83fdd02d19c71ea80a66a86c54b2e80c02ba5b"
+    },
+    {
+      "file": "pages/page-0002.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-01T10%3A11%3A10.000%27+OR+%28created_date+%3D+%272026-09-01T10%3A11%3A10.000%27+AND+unique_key+%3E+%2770268763%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "52172906c55bb369e00636f7ecce21d695c2906578921d3a8003a8d0a0ee0683"
+    },
+    {
+      "file": "pages/page-0003.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-01T15%3A14%3A48.000%27+OR+%28created_date+%3D+%272026-09-01T15%3A14%3A48.000%27+AND+unique_key+%3E+%2770265605%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "1a065b7496382a4c6dd44b88c4851d024a5a6dfa6910920610b17d7f5fb9926f"
+    },
+    {
+      "file": "pages/page-0004.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-01T21%3A34%3A46.000%27+OR+%28created_date+%3D+%272026-09-01T21%3A34%3A46.000%27+AND+unique_key+%3E+%2770265683%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "580b3712f30fbe62d42374d6fde7d7d8b3d9902c8c1704b002cc080adedb4511"
+    },
+    {
+      "file": "pages/page-0005.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-02T09%3A13%3A44.000%27+OR+%28created_date+%3D+%272026-09-02T09%3A13%3A44.000%27+AND+unique_key+%3E+%2770273926%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "52611de9d44fe53fb3cb078f2c875d2321e9de689e7bea5cde234345f33dc7d9"
+    },
+    {
+      "file": "pages/page-0006.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-02T13%3A44%3A00.000%27+OR+%28created_date+%3D+%272026-09-02T13%3A44%3A00.000%27+AND+unique_key+%3E+%2770272873%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "8e406e56128192eef6e1f707b9c9deacad89c3d18611682e75b4217fbd32b560"
+    },
+    {
+      "file": "pages/page-0007.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-02T19%3A19%3A15.000%27+OR+%28created_date+%3D+%272026-09-02T19%3A19%3A15.000%27+AND+unique_key+%3E+%2770282290%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "5085283be5ce181604ae52d81071a4587bc00988398aadd8359bf2a82cf5723f"
+    },
+    {
+      "file": "pages/page-0008.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-03T06%3A42%3A41.000%27+OR+%28created_date+%3D+%272026-09-03T06%3A42%3A41.000%27+AND+unique_key+%3E+%2770342216%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "42e0eb0d6f0751a01494b4de0aad7ebdb0781e4f69406bf4b5ecba4176fc2c2d"
+    },
+    {
+      "file": "pages/page-0009.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-03T11%3A48%3A02.000%27+OR+%28created_date+%3D+%272026-09-03T11%3A48%3A02.000%27+AND+unique_key+%3E+%2770290044%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "a3366f76b7831a099043a4ad53d5e502dafc89b11c29626d0e946539d9653541"
+    },
+    {
+      "file": "pages/page-0010.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-03T16%3A13%3A21.000%27+OR+%28created_date+%3D+%272026-09-03T16%3A13%3A21.000%27+AND+unique_key+%3E+%2770284941%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "dfb486788681ba2eece693177578d162fabc95f451ce4b975bfd46e912d4d2d3"
+    },
+    {
+      "file": "pages/page-0011.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-03T21%3A52%3A20.000%27+OR+%28created_date+%3D+%272026-09-03T21%3A52%3A20.000%27+AND+unique_key+%3E+%2770284932%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "8a4e8ec1d93c748f5102a358657fab28debb217bd2e4342d586b41e7279a1858"
+    },
+    {
+      "file": "pages/page-0012.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-04T08%3A53%3A21.000%27+OR+%28created_date+%3D+%272026-09-04T08%3A53%3A21.000%27+AND+unique_key+%3E+%2770304483%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "c795598d8a28f647586e3453954f7e9e0e651eca78acbd11fe30b6b86ceb9430"
+    },
+    {
+      "file": "pages/page-0013.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-04T13%3A27%3A46.000%27+OR+%28created_date+%3D+%272026-09-04T13%3A27%3A46.000%27+AND+unique_key+%3E+%2770302493%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "39d95b0a033efb1e588b1f2394e7b65c3856443b310d2ac02a86c4cfeac9f019"
+    },
+    {
+      "file": "pages/page-0014.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-04T18%3A57%3A10.000%27+OR+%28created_date+%3D+%272026-09-04T18%3A57%3A10.000%27+AND+unique_key+%3E+%2770297122%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "84135d55b37dd9edef6a3f967abe3a1c00efd436a8458a26fd07b8e79a9de1a5"
+    },
+    {
+      "file": "pages/page-0015.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-05T01%3A15%3A42.000%27+OR+%28created_date+%3D+%272026-09-05T01%3A15%3A42.000%27+AND+unique_key+%3E+%2770295896%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "75dbfdef730b91dbe5cd0c776820b350cbde07e4b41719f8b2c0ad32ac1a8039"
+    },
+    {
+      "file": "pages/page-0016.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-05T12%3A21%3A49.000%27+OR+%28created_date+%3D+%272026-09-05T12%3A21%3A49.000%27+AND+unique_key+%3E+%2770311895%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "0e56cc5cf045a1932eb20ed1a55557e0c8fa378ace8f5762cca8a159ccef4ad5"
+    },
+    {
+      "file": "pages/page-0017.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-05T19%3A31%3A57.000%27+OR+%28created_date+%3D+%272026-09-05T19%3A31%3A57.000%27+AND+unique_key+%3E+%2770311862%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "e8e01f47f2b762b0c87e54c28269aa71d5f19556e813c79fdd42e8c4cd3a2d5d"
+    },
+    {
+      "file": "pages/page-0018.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-06T00%3A24%3A37.000%27+OR+%28created_date+%3D+%272026-09-06T00%3A24%3A37.000%27+AND+unique_key+%3E+%2770314707%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "79f37a68584d673c3927d6ed740ef1dd7c47adc8808e414b879afd852e444c2a"
+    },
+    {
+      "file": "pages/page-0019.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-06T10%3A24%3A14.000%27+OR+%28created_date+%3D+%272026-09-06T10%3A24%3A14.000%27+AND+unique_key+%3E+%2770326403%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "5c240a5690910334e5ece755d59d988872043e6c74cb977b061f20e63f45ca8e"
+    },
+    {
+      "file": "pages/page-0020.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-06T17%3A17%3A47.000%27+OR+%28created_date+%3D+%272026-09-06T17%3A17%3A47.000%27+AND+unique_key+%3E+%2770327020%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "e9425fea2c728344cb758b7b79cd57401fe3b3efe8925f55f405e8c137babdcf"
+    },
+    {
+      "file": "pages/page-0021.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-06T22%3A25%3A18.000%27+OR+%28created_date+%3D+%272026-09-06T22%3A25%3A18.000%27+AND+unique_key+%3E+%2770326838%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "2424a9b749b93681c310980ad5197ea1d57630f7d44eded4ebb1bd1bcbc35580"
+    },
+    {
+      "file": "pages/page-0022.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-07T05%3A15%3A43.000%27+OR+%28created_date+%3D+%272026-09-07T05%3A15%3A43.000%27+AND+unique_key+%3E+%2770332846%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "6c8a1590f70c044b9f01113fb2679c7694689fd8207f13394b6d67869675642b"
+    },
+    {
+      "file": "pages/page-0023.json",
+      "rows": 3000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-07T13%3A26%3A34.000%27+OR+%28created_date+%3D+%272026-09-07T13%3A26%3A34.000%27+AND+unique_key+%3E+%2770334713%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "0b5f15797d4756492615864ebea371ad0a40371037f2f72eca8b2d66b0d3ea33"
+    },
+    {
+      "file": "pages/page-0024.json",
+      "rows": 2830,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Ccomplaint_type%2Cstatus%2Cagency%2Cborough%2Copen_data_channel_type&%24where=created_date+%3E%3D+%272026-09-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-09-08T00%3A00%3A00%27+AND+%28created_date+%3E+%272026-09-07T19%3A47%3A23.000%27+OR+%28created_date+%3D+%272026-09-07T19%3A47%3A23.000%27+AND+unique_key+%3E+%2770328011%27%29%29&%24order=created_date+ASC%2Cunique_key+ASC&%24limit=3000",
+      "sha256": "eb7a28c9e6dd225662e93a71413def78253d7344b30d384e5cffc461c2baad54"
+    }
+  ],
+  "endpoint": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+  "scope": "All available API records created in the window; API is mutable, pages are not a transactionally consistent snapshot",
+  "status": "extracted_and_count_reconciled",
+  "records_sha256": "911191cf2186290e8f65570225fe0ba89488e8f12fc4f9dc671f841fd12e6338"
+}

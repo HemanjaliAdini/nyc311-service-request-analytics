@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-22",
+  "evidence": "agent native Tableau screenshot and successful package open after repair; earlier category interaction reported by user",
+  "dashboard_opens": true,
+  "category_filter_updates_other_charts": true,
+  "agency_filter_individually_verified": true,
+  "date_filter_individually_verified": true,
+  "published": false,
+  "agent_native_render_verified": true,
+  "screenshot": "dashboard-native.png",
+  "repairs": [
+    "datasource column XML order",
+    "supported bold text attributes",
+    "removed unsupported dashboard attribute",
+    "embedded verified Hyper extract"
+  ],
+  "package_sha256": "ff778d1c6dcfe3f5a80be18bd115ce9cb939cfcbc04a023b736593c5aa3eb366",
+  "agency_and_date_evidence": "User confirmed on 22 October 2026 that both controls update the other charts, after resetting between tests",
+  "core_project_acceptance": "complete; manual refresh scope",
+  "learning_walkthrough": "ongoing"
+}

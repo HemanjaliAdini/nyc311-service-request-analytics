@@ -1,0 +1,29 @@
+{
+  "batch_id": "20261021T141250867855Z",
+  "row_count": 71830,
+  "raw_hash_match": true,
+  "stored_payload_hashes_match": true,
+  "cleaned_source_fields_and_durations_match": true,
+  "replay_raw_and_cleaned_full_contents_unchanged": true,
+  "report_totals_and_category_counts_match": true,
+  "median_matches_independent_calculation": true,
+  "summary": [
+    "71830",
+    "66988",
+    "87.0470915112",
+    "4.220833",
+    "4811",
+    "7"
+  ],
+  "quality_counts": {
+    "closure_status_mismatch": 712,
+    "valid": 66988,
+    "missing_closed_date": 4105,
+    "negative_duration": 25
+  },
+  "scope": "All available API records created in the window; API is mutable, pages are not a transactionally consistent snapshot",
+  "snapshot_local_assumption": "America/New_York for future-date checks and calendar-day ageing; source times have no explicit offset",
+  "duration_semantics": "Source wall-clock hours, not UTC elapsed time; reject future, reversed and invalid closure dates",
+  "export_sha256": "5917a390e16b936083e38713ea0c049e3f7b1a4d61e78f69b7a179d40890a75c",
+  "schedule": "manual; no schedule created"
+}

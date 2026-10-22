@@ -1,0 +1,14 @@
+{
+  "batch_id": "20261021T141250867855Z",
+  "rows": 71830,
+  "sheets": [
+    "Average hours to close",
+    "Not Closed \u2014 calendar-day age",
+    "Requests by agency",
+    "Requests by category",
+    "Requests opened by day",
+    "Status at extraction"
+  ],
+  "filter_controls": 3,
+  "csv_hash_matches": true
+}
