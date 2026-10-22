@@ -4,7 +4,9 @@ A learning and portfolio project that turns real NYC 311 API responses into vali
 
 **71,830 requests · Python · Databricks · SQL · Delta Lake · Tableau Public**
 
-![Actual Tableau dashboard](tableau/cohort/dashboard-native.png)
+![Actual Tableau dashboard from the original layout](tableau/cohort/dashboard-native.png)
+
+The screenshot shows the original layout. The downloadable workbook now uses a compact 1000 × 760 layout with four summary cards and consistent chart spacing. Its data and filter definitions are unchanged. The user confirmed opening the updated workbook; a fresh screenshot is pending.
 
 [Download the packaged Tableau workbook](tableau/cohort/NYC%20311%20Service%20Request%20Analytics.twbx) and open it in Tableau Public. Use GitHub's download button to download the binary file. The package contains its data; no live Databricks connection is needed to view it.
 

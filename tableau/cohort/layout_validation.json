@@ -1,0 +1,14 @@
+{
+  "data_csv_and_hyper_identical_to_verified_package": true,
+  "all_worksheet_filters_unchanged": true,
+  "dashboard_size": {
+    "minwidth": "1000",
+    "maxwidth": "1000",
+    "minheight": "760",
+    "maxheight": "760"
+  },
+  "package_sha256": "d7b4f864c36942ade2a96fee4e69aee77748de777eb9cb012342c2b2ad644514",
+  "native_layout_check": "User confirmed updated workbook is open on 22 October; agent control remains bound to old lesson",
+  "prior_verified_workbook": "../before-layout-polish/NYC 311 Service Request Analytics.twbx",
+  "fresh_screenshot": "pending upload; previous screenshot retained as earlier layout"
+}

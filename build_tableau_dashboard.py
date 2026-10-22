@@ -109,7 +109,7 @@ def main():
     for name,dim,measure,agg,vertical in plots:
         ws=node(sheets,'worksheet',name=name)
         title=node(node(node(ws,'layout-options'),'title'),'formatted-text')
-        node(title,'run',name,fontsize='12',bold='true',fontcolor='#19364a')
+        node(title,'run',name,fontsize='11',bold='true',fontcolor='#19364a')
         table=node(ws,'table');view=node(table,'view')
         node(node(view,'datasources'),'datasource',name=dsname,caption=ds.get('caption'))
         dep=node(view,'datasource-dependencies',datasource=dsname)
@@ -135,7 +135,7 @@ def main():
         pane=node(node(table,'panes'),'pane',**{'selection-relaxation-option':'selection-relaxation-allow'})
         node(node(pane,'view'),'breakdown',value='auto');node(pane,'mark',**{'class':'Bar'})
         style=node(node(pane,'style'),'style-rule',element='mark')
-        node(style,'format',attr='mark-color',value='#287f8e')
+        node(style,'format',attr='mark-color',value='#c18b40' if dim=='open_age_band' else '#467b9e' if dim=='status' else '#287f8e')
         node(style,'format',attr='mark-labels-show',value='true')
         node(table,'rows',f'[{dsname}].{meas}' if vertical else f'[{dsname}].[none:{dim}:nk]')
         node(table,'cols',f'[{dsname}].[none:{dim}:nk]' if vertical else f'[{dsname}].{meas}')
@@ -146,7 +146,7 @@ def main():
         node(node(win,'viewpoint'),'zoom',type='entire-view' if vertical else 'fit-width')
     dashboard=node(node(root,'dashboards'),'dashboard',name='NYC 311 — Service Request Analytics')
     node(dashboard,'style')
-    node(dashboard,'size',minwidth='1380',maxwidth='1380',minheight='1040',maxheight='1040')
+    node(dashboard,'size',minwidth='1000',maxwidth='1000',minheight='760',maxheight='760')
     zones=node(dashboard,'zones')
     container=node(zones,'zone',id='0',x='0',y='0',w='100000',h='100000',**{'type-v2':'layout-basic'})
     def textzone(zid,text,x,y,w,h,size,color,bold=False):
@@ -157,20 +157,26 @@ def main():
     summary=manifest['validation']['summary']
     total,valid,mean,median,notclosed,unknown=summary
     snapshot=manifest['finished_at_utc'][:16].replace('T',' ')+' UTC'
-    textzone('1','NYC 311 | Service Request Analytics',1000,600,98000,4200,22,'#19364a',True)
-    textzone('2',f'Opened 1–7 Sep 2026 • Status as of {snapshot} • Public city-service data',1000,5000,98000,2600,11,'#506374')
-    textzone('3',f'{int(total):,} requests     |     {int(notclosed):,} not marked Closed     |     {float(median):.2f}h median closure     |     {int(valid):,} valid closure durations',1000,7900,98000,3800,15,'#19364a',True)
-    textzone('4','Filter category, agency and opened date. Scroll category lists to inspect additional rows. Full-cohort totals above remain the baseline.',1000,11900,98000,2400,10,'#506374')
+    textzone('1','NYC 311 | Service Request Analytics',1500,700,97000,4400,20,'#19364a',True)
+    cohort_start=manifest['start_inclusive']
+    cohort_end=manifest['end_exclusive']
+    textzone('2',f'Opened {cohort_start} to {cohort_end} (end exclusive)  •  Snapshot: {snapshot}',1500,5700,97000,2600,9,'#506374')
+    cards=[(f'{int(total):,}','Requests'),(f'{int(notclosed):,}','Not marked Closed'),(f'{float(median):.2f} hours','Median valid closure'),(f'{int(valid):,}','Valid closure durations')]
+    for i,(value,label) in enumerate(cards):
+        card=textzone(str(3+i),value+'\n'+label,1500+i*24500,9300,23500,6800,12,'#19364a',True)
+        zs=node(card,'zone-style')
+        for attr,value in [('background-color','#eef5f7'),('margin','6')]:node(zs,'format',attr=attr,value=value)
+    textzone('7','Full-cohort baseline above. Filters update the charts. Scroll inside category charts for additional rows.',1500,16400,97000,2100,8,'#506374')
     for i,(d,caption) in enumerate([('category','Category'),('agency','Agency'),('opened_date','Opened date')]):
-        z=node(container,'zone',id=str(10+i),x=str(1000+i*32500),y='14800',w='31000',h='5200',name=plots[0][0],mode='checkdropdown',param=f'[{dsname}].[none:{d}:nk]',**{'type-v2':'filter','custom-title':'true'})
-        node(node(z,'formatted-text'),'run',caption,fontsize='10')
+        z=node(container,'zone',id=str(10+i),x=str(1500+i*32500),y='18800',w='31500',h='5500',name=plots[0][0],mode='checkdropdown',param=f'[{dsname}].[none:{d}:nk]',**{'type-v2':'filter','custom-title':'true'})
+        node(node(z,'formatted-text'),'run',caption,fontsize='9')
     for i,(name,*_) in enumerate(plots):
         col=i%2;row=i//2
-        z=node(container,'zone',id=str(20+i),name=name,x=str(1000+col*49500),y=str(21100+row*24500),w='48000',h='23400')
+        z=node(container,'zone',id=str(20+i),name=name,x=str(1500+col*49000),y=str(25500+row*22300),w='48000',h='21300')
         node(z,'layout-cache',**{'type-h':'fixed','type-w':'fixed'})
         zs=node(z,'zone-style')
-        for attr,value in [('border-style','solid'),('border-color','#d9e3e7'),('border-width','1'),('margin','4')]:node(zs,'format',attr=attr,value=value)
-    textzone('40','Closure means agency-marked Closed, not customer satisfaction. Hours use source wall-clock dates. Age is calendar days, assuming NYC local time. Unknown or invalid durations are excluded.',1000,95100,98000,3800,9,'#506374')
+        for attr,value in [('border-style','solid'),('border-color','#dce6ea'),('border-width','1'),('margin','6')]:node(zs,'format',attr=attr,value=value)
+    textzone('40','Closed is an agency status, not a satisfaction measure. Durations use source wall-clock hours; invalid durations are excluded.\nAge is in calendar days at extraction, assuming NYC local time. This is a saved snapshot with manual refresh.',1500,93400,97000,5600,8,'#506374')
     node(dashboard,'simple-id',uuid='{'+str(uuid.uuid4()).upper()+'}')
     dashwin=node(windows,'window',**{'class':'dashboard','name':dashboard.get('name'),'maximized':'true'})
     views=node(dashwin,'viewpoints')

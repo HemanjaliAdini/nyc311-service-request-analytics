@@ -6,7 +6,7 @@
   "agency_filter_individually_verified": true,
   "date_filter_individually_verified": true,
   "published": false,
-  "agent_native_render_verified": true,
+  "agent_native_render_verified": false,
   "screenshot": "dashboard-native.png",
   "repairs": [
     "datasource column XML order",
@@ -14,8 +14,12 @@
     "removed unsupported dashboard attribute",
     "embedded verified Hyper extract"
   ],
-  "package_sha256": "ff778d1c6dcfe3f5a80be18bd115ce9cb939cfcbc04a023b736593c5aa3eb366",
+  "package_sha256": "d7b4f864c36942ade2a96fee4e69aee77748de777eb9cb012342c2b2ad644514",
   "agency_and_date_evidence": "User confirmed on 22 October 2026 that both controls update the other charts, after resetting between tests",
   "core_project_acceptance": "complete; manual refresh scope",
-  "learning_walkthrough": "ongoing"
+  "learning_walkthrough": "ongoing",
+  "layout_polish": "1000x760 canvas, four summary cards, consistent grid and colours",
+  "updated_workbook_open_evidence": "User confirmed updated workbook is open",
+  "previous_agent_render_verification": "Original repaired layout verified; see before-layout-polish backup",
+  "fresh_screenshot": "pending; dashboard-native.png shows original layout"
 }
